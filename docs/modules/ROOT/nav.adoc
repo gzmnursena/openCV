@@ -1,0 +1,1 @@
+* xref:gri.adoc[Welcome]

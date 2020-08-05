@@ -1,0 +1,31 @@
+== OPENCV NEDİR ?
+
+OpenCV (Open Source Computer Vision) açık kaynak kodlu görüntü işleme kütüphanesidir. 1999
+yılında İntel tarafından geliştirilmeye başlanmış daha sonra Itseez, Willow, Nvidia, AMD, Google
+gibi şirket ve toplulukların desteği ile gelişim süreci devam etmektedir.
+İlk etapta C programlama dili ile geliştirilmeye başlanmış ve daha sonra birçok algoritması C++ dili
+ile geliştirilmiştir.
+
+=== OPENCV BİLEŞENLERİ
+*Core:* OpenCV’nin temel fonksiyonları ve matris, point, size gibi veri yapılarını bulundurur.
+
+*HighGui:* Resim görüntüleme, pencereleri yönetme ve grafiksel kullanıcı arabirimleri için gerekli
+olabilecek metotları barındırır.
+
+*Imgproc:* Filtreleme operatörleri, kenar bulma, nesne belirleme, renk uzayı yönetimi, renk
+yönetimi ve eşikleme gibi neredeyse tüm fonksiyonları içine alan bir pakettir.
+
+*Imgcodecs:* Dosya sistemi üzerinden resim ve video okuma/yazma işlemlerini yerine getiren
+metotları barındırmaktadır.
+
+*Videoio:* Kameralara ve video cihazlarına erişmek ve görüntü almak ve görüntü yazmak için
+gerekli metotları barındırır.
+
+== ROS’TA OPENCV KULLANIMI
+
+ROS’ta opencv fonksiyonlarını kullanabilmek için öncelikle camera üzerinden görüntü alınmıştır
+ve bu görüntü üzerinde bazı fonksiyonlar uygulanmıştır. Öncelikle ROS’tan "/usb_cam/image_raw"
+topiğinin yayınlanması sağlanır.Yazılan kod üzerinde bu topiğe abone olunur. Topiğin yayınladığı
+veri opencv ile görselleştirilir.
+
+image::../Pictures/Screenshot from 2020-07-15 14-45-00.png[]
