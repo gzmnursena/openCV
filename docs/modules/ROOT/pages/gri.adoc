@@ -28,4 +28,4 @@ ve bu görüntü üzerinde bazı fonksiyonlar uygulanmıştır. Öncelikle ROS�
 topiğinin yayınlanması sağlanır.Yazılan kod üzerinde bu topiğe abone olunur. Topiğin yayınladığı
 veri opencv ile görselleştirilir.
 
-image::../Pictures/Screenshot from 2020-07-15 14-45-00.png[]
+image::Screenshot from 2020-07-15 14-45-00.png[Topic Alma]
