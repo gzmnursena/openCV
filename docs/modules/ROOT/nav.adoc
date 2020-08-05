@@ -1,1 +1,1 @@
-* xref:gri.adoc[Welcome]
+* xref:gri.adoc[Griye Dönüştürme]
